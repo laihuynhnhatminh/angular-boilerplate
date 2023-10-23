@@ -1,8 +1,12 @@
-# TO BE UPDATED
+# Note
+This project is created as a boilerplate for my own Angular projects.
+- Default styling lib will be PrimeNg(https://primeng.org/). There will be branch with other libs. (Main focus is Materials, PrimeNG, Ant and Tailwinds)
+- Will be updated per Angular major version update.
+- This repo is for my own usage, I will take any advices to improve them. However advices should only be to improve the repo overall not just for a single usage or such, if you want to improve it in your own way, do fork the repo and update it as you see fit.
 
-# AngularBoilerplate
+# AngularBoilerplate - to be updated
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.
 
 ## Development server
 
