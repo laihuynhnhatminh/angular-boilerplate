@@ -10,6 +10,10 @@ export const routes: Routes = [
         path: '',
         loadChildren: async () => (await import('@page/home')).routes,
       },
+      {
+        path: 'auth',
+        loadChildren: async () => (await import('@page/auth')).routes,
+      },
     ],
   },
 ];
