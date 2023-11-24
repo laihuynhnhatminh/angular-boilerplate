@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { COMMON_MODULES } from '@shared/constants/modules.constant';
+import { COMMON_MODULES } from '@shared/constants';
 
 @Component({
   selector: 'app-landing',

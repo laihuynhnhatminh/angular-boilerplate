@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DefaultLoginComponent } from '@page/auth/components/default-login/default-login.component';
-import { COMMON_MODULES } from '@shared/constants/modules.constant';
+import { COMMON_MODULES } from '@shared/constants';
 
 @Component({
   selector: 'app-register-page',
