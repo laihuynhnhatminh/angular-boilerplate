@@ -29,6 +29,12 @@ dependencies:
   '@angular/router':
     specifier: ^16.2.0
     version: 16.2.12(@angular/common@16.2.12)(@angular/core@16.2.12)(@angular/platform-browser@16.2.12)(rxjs@7.8.1)
+  primeflex:
+    specifier: ^3.3.1
+    version: 3.3.1
+  primeng:
+    specifier: 16.9.1
+    version: 16.9.1(@angular/common@16.2.12)(@angular/core@16.2.12)(@angular/forms@16.2.12)(rxjs@7.8.1)(zone.js@0.13.3)
   rxjs:
     specifier: ~7.8.0
     version: 7.8.1
@@ -7139,6 +7145,27 @@ packages:
       ansi-styles: 5.2.0
       react-is: 18.2.0
     dev: true
+
+  /primeflex@3.3.1:
+    resolution: {integrity: sha512-zaOq3YvcOYytbAmKv3zYc+0VNS9Wg5d37dfxZnveKBFPr7vEIwfV5ydrpiouTft8MVW6qNjfkaQphHSnvgQbpQ==}
+    dev: false
+
+  /primeng@16.9.1(@angular/common@16.2.12)(@angular/core@16.2.12)(@angular/forms@16.2.12)(rxjs@7.8.1)(zone.js@0.13.3):
+    resolution: {integrity: sha512-dCkvKoV62xDEyeGaEm8B0qncdKWNz4mDU/Camnr27AafaDNGV0lCA29imgJvZPEmJTmC2wDhtedg7Syfwz4UqA==}
+    peerDependencies:
+      '@angular/common': ^16.2.0
+      '@angular/core': ^16.2.0
+      '@angular/forms': ^16.2.0
+      rxjs: ^6.0.0 || ^7.8.1
+      zone.js: ~0.13.0
+    dependencies:
+      '@angular/common': 16.2.12(@angular/core@16.2.12)(rxjs@7.8.1)
+      '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.13.3)
+      '@angular/forms': 16.2.12(@angular/common@16.2.12)(@angular/core@16.2.12)(@angular/platform-browser@16.2.12)(rxjs@7.8.1)
+      rxjs: 7.8.1
+      tslib: 2.6.2
+      zone.js: 0.13.3
+    dev: false
 
   /proc-log@3.0.0:
     resolution: {integrity: sha512-++Vn7NS4Xf9NacaU9Xq3URUuqZETPsf8L4j5/ckhaRYsfPeRyzGw+iDjFhV/Jr3uNmTvvddEJFWh5R1gRgUH8A==}
